@@ -67,10 +67,16 @@ def display_map(path):
 # ----- FUNCTION TO DISPLAY THE DIRECTIONS IN THE GOOGLE MAPS ----- #
 def show_directions_on_google_maps(locations, path):
     base_url = "https://www.google.com/maps/dir/"
+
+    # Add the first location to the URL
+    origin = locations[path[0]]
+    url_params = f"{origin[0]},{origin[1]}/"
+    base_url += url_params
+
     for i in range(len(path) - 1):
         origin = locations[path[i]]
         destination = locations[path[i + 1]]
-        url_params = f"{origin[0]},{origin[1]}/{destination[0]},{destination[1]}/"
+        url_params = f"{destination[0]},{destination[1]}/"
         base_url += url_params
 
     webbrowser.open(base_url)

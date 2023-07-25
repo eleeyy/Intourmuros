@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d03d58465011ef4af24002c8e74a2d58 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d03d58465011ef4af24002c8e74a2d58" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d03d58465011ef4af24002c8e74a2d58 = L.map(
+                "map_d03d58465011ef4af24002c8e74a2d58",
+                {
+                    center: [14.5868, 120.9762],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c38cd438005c5c56e6c6b4f0e9e054aa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+            var marker_c34324ca5877e9f5d0a786d5b1d30e71 = L.marker(
+                [14.5868, 120.9762],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_c94e3c77176fdcf543eecb6d70dbf90f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe3d30c09ae1107cf538452fb4d17e21 = $(`<div id="html_fe3d30c09ae1107cf538452fb4d17e21" style="width: 100.0%; height: 100.0%;">1. Pamantasan ng Lungsod ng Maynila</div>`)[0];
+                popup_c94e3c77176fdcf543eecb6d70dbf90f.setContent(html_fe3d30c09ae1107cf538452fb4d17e21);
+            
+        
+
+        marker_c34324ca5877e9f5d0a786d5b1d30e71.bindPopup(popup_c94e3c77176fdcf543eecb6d70dbf90f)
+        ;
+
+        
+    
+    
+            var marker_142cf06b6c52d9687168124f5313c832 = L.marker(
+                [14.5854, 120.9756],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_b9e63ade26e94bfb722df5fb18830e48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6142f40391246423ba9f1c744341784c = $(`<div id="html_6142f40391246423ba9f1c744341784c" style="width: 100.0%; height: 100.0%;">2. Baluarte de San Diego</div>`)[0];
+                popup_b9e63ade26e94bfb722df5fb18830e48.setContent(html_6142f40391246423ba9f1c744341784c);
+            
+        
+
+        marker_142cf06b6c52d9687168124f5313c832.bindPopup(popup_b9e63ade26e94bfb722df5fb18830e48)
+        ;
+
+        
+    
+    
+            var marker_157dbac106bac5b6bbd0f1a93eb44a3c = L.marker(
+                [14.5882, 120.9741],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_68b24a618fbd423e57fdfc3ba7f80b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9300bdf3ba32fef3fb508557389c984 = $(`<div id="html_c9300bdf3ba32fef3fb508557389c984" style="width: 100.0%; height: 100.0%;">3. Light and Sound Museum</div>`)[0];
+                popup_68b24a618fbd423e57fdfc3ba7f80b15.setContent(html_c9300bdf3ba32fef3fb508557389c984);
+            
+        
+
+        marker_157dbac106bac5b6bbd0f1a93eb44a3c.bindPopup(popup_68b24a618fbd423e57fdfc3ba7f80b15)
+        ;
+
+        
+    
+    
+            var marker_83ef79c1ade068b29d85faba1b7778ab = L.marker(
+                [14.5892, 120.9752],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_5251053b2fa62a2b44b52626ec7ab0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c9f973684a15a60ef0987d5584534a1 = $(`<div id="html_4c9f973684a15a60ef0987d5584534a1" style="width: 100.0%; height: 100.0%;">4. San Agustin Church</div>`)[0];
+                popup_5251053b2fa62a2b44b52626ec7ab0e7.setContent(html_4c9f973684a15a60ef0987d5584534a1);
+            
+        
+
+        marker_83ef79c1ade068b29d85faba1b7778ab.bindPopup(popup_5251053b2fa62a2b44b52626ec7ab0e7)
+        ;
+
+        
+    
+    
+            var marker_eeb97a10ebf018081a9e6655f5a18e07 = L.marker(
+                [14.5894, 120.9753],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_07f749d9d8269d9ab87665282f30678e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1492aef43bc36bdd7ef392b50441b6b = $(`<div id="html_d1492aef43bc36bdd7ef392b50441b6b" style="width: 100.0%; height: 100.0%;">5. Casa Manila</div>`)[0];
+                popup_07f749d9d8269d9ab87665282f30678e.setContent(html_d1492aef43bc36bdd7ef392b50441b6b);
+            
+        
+
+        marker_eeb97a10ebf018081a9e6655f5a18e07.bindPopup(popup_07f749d9d8269d9ab87665282f30678e)
+        ;
+
+        
+    
+    
+            var marker_9fe0668c89f77096e0c8ba81b28068d5 = L.marker(
+                [14.5908, 120.975],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_a189fe7ff89f442dad06b80fa112ff95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a719a611dac3148a9c50858eb5338c8 = $(`<div id="html_5a719a611dac3148a9c50858eb5338c8" style="width: 100.0%; height: 100.0%;">6. Bahay Tsinoy</div>`)[0];
+                popup_a189fe7ff89f442dad06b80fa112ff95.setContent(html_5a719a611dac3148a9c50858eb5338c8);
+            
+        
+
+        marker_9fe0668c89f77096e0c8ba81b28068d5.bindPopup(popup_a189fe7ff89f442dad06b80fa112ff95)
+        ;
+
+        
+    
+    
+            var marker_861bbbbdfda10ed7f72313130d0f7972 = L.marker(
+                [14.5917, 120.9734],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_0f4fa0dfa236b7df88ddb66473a8039c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_170b5172d33b8980a9ffc8d0d72ebbaf = $(`<div id="html_170b5172d33b8980a9ffc8d0d72ebbaf" style="width: 100.0%; height: 100.0%;">7. Manila Cathedral</div>`)[0];
+                popup_0f4fa0dfa236b7df88ddb66473a8039c.setContent(html_170b5172d33b8980a9ffc8d0d72ebbaf);
+            
+        
+
+        marker_861bbbbdfda10ed7f72313130d0f7972.bindPopup(popup_0f4fa0dfa236b7df88ddb66473a8039c)
+        ;
+
+        
+    
+    
+            var marker_aca06388afc22bafdd3f6815f0a413ee = L.marker(
+                [14.5899, 120.9734],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_ec0fd01424c956af2103093a35a77d38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3c58ad07efae51bce7869b380fbd6f9 = $(`<div id="html_c3c58ad07efae51bce7869b380fbd6f9" style="width: 100.0%; height: 100.0%;">8. Museo de Intramuros</div>`)[0];
+                popup_ec0fd01424c956af2103093a35a77d38.setContent(html_c3c58ad07efae51bce7869b380fbd6f9);
+            
+        
+
+        marker_aca06388afc22bafdd3f6815f0a413ee.bindPopup(popup_ec0fd01424c956af2103093a35a77d38)
+        ;
+
+        
+    
+    
+            var marker_80e5f7d8741437e0503b4fb9541763b9 = L.marker(
+                [14.5905, 120.9779],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_577be2ced85401b4a16989637afadbb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b09c62bc1db1cd8627c436687c22374 = $(`<div id="html_6b09c62bc1db1cd8627c436687c22374" style="width: 100.0%; height: 100.0%;">9. Mapua University</div>`)[0];
+                popup_577be2ced85401b4a16989637afadbb2.setContent(html_6b09c62bc1db1cd8627c436687c22374);
+            
+        
+
+        marker_80e5f7d8741437e0503b4fb9541763b9.bindPopup(popup_577be2ced85401b4a16989637afadbb2)
+        ;
+
+        
+    
+    
+            var marker_3d61918259a587378ba27a7bdbace27f = L.marker(
+                [14.5916, 120.9778],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_6cdd6a03437e69779051db6b01d09c1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bba4d83463f5727e6cd5f86a2108b8f = $(`<div id="html_3bba4d83463f5727e6cd5f86a2108b8f" style="width: 100.0%; height: 100.0%;">10. Lyceum of the Philippines University</div>`)[0];
+                popup_6cdd6a03437e69779051db6b01d09c1a.setContent(html_3bba4d83463f5727e6cd5f86a2108b8f);
+            
+        
+
+        marker_3d61918259a587378ba27a7bdbace27f.bindPopup(popup_6cdd6a03437e69779051db6b01d09c1a)
+        ;
+
+        
+    
+    
+            var marker_bd7adffb37f1848054181a4f062c6848 = L.marker(
+                [14.5938, 120.9769],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_ecdc87cc877717acfc1a0701466a286a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b2c9d9ee2a10f9f7ec989f5081acf0a = $(`<div id="html_7b2c9d9ee2a10f9f7ec989f5081acf0a" style="width: 100.0%; height: 100.0%;">11. Colegio de San Juan de Letran</div>`)[0];
+                popup_ecdc87cc877717acfc1a0701466a286a.setContent(html_7b2c9d9ee2a10f9f7ec989f5081acf0a);
+            
+        
+
+        marker_bd7adffb37f1848054181a4f062c6848.bindPopup(popup_ecdc87cc877717acfc1a0701466a286a)
+        ;
+
+        
+    
+    
+            var marker_4eff690ea495bac5fa3b372dcb5ade96 = L.marker(
+                [14.5942, 120.9704],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_4667a3818989d1fa928bbac8e469d641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_723f82910b2642df65d1da770a7095ad = $(`<div id="html_723f82910b2642df65d1da770a7095ad" style="width: 100.0%; height: 100.0%;">12. Fort Santiago</div>`)[0];
+                popup_4667a3818989d1fa928bbac8e469d641.setContent(html_723f82910b2642df65d1da770a7095ad);
+            
+        
+
+        marker_4eff690ea495bac5fa3b372dcb5ade96.bindPopup(popup_4667a3818989d1fa928bbac8e469d641)
+        ;
+
+        
+    
+    
+            var marker_b5985243e948f91e9aa010810585129e = L.marker(
+                [14.5868, 120.9762],
+                {}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+    
+        var popup_caeff5965d17e8225872a48cc28504ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f52d06b3261b37e3431f14da494639 = $(`<div id="html_b9f52d06b3261b37e3431f14da494639" style="width: 100.0%; height: 100.0%;">13. Pamantasan ng Lungsod ng Maynila</div>`)[0];
+                popup_caeff5965d17e8225872a48cc28504ea.setContent(html_b9f52d06b3261b37e3431f14da494639);
+            
+        
+
+        marker_b5985243e948f91e9aa010810585129e.bindPopup(popup_caeff5965d17e8225872a48cc28504ea)
+        ;
+
+        
+    
+    
+            var poly_line_3c1fb828bcca39dcc1921e6e72df9794 = L.polyline(
+                [[14.5868, 120.9762], [14.5854, 120.9756], [14.5882, 120.9741], [14.5892, 120.9752], [14.5894, 120.9753], [14.5908, 120.975], [14.5917, 120.9734], [14.5899, 120.9734], [14.5905, 120.9779], [14.5916, 120.9778], [14.5938, 120.9769], [14.5942, 120.9704], [14.5868, 120.9762]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d03d58465011ef4af24002c8e74a2d58);
+        
+</script>
+</html>
